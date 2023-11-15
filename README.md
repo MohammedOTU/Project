@@ -85,13 +85,30 @@
   <p>Join our DogWalking family and let us be your trusted partner in ensuring your dogs lead happy and active lives!</p>
 </div>
 
- <div id="reviews">
-        <h2>Reviews</h2>
-        <div class="review">
-          <p>"Great service! My dog loves their walks."</p>
-          <p>- Happy Customer</p>
-        </div>
-        <!-- Add more reviews -->
+<div id="reviews">
+  <h2>Reviews</h2>
+  <div class="review">
+    <p>"Great service! My dog loves their walks."</p>
+    <p>- Happy Customer</p>
+  </div>
+  <div class="review">
+    <p>"DogWalking.com is fantastic! The team is reliable and genuinely cares about the dogs."</p>
+    <p>- DogOwner123</p>
+  </div>
+  <div class="review">
+    <p>"I appreciate the flexibility in scheduling. It's a relief to have a trustworthy dog walking service."</p>
+    <p>- PetLover456</p>
+  </div>
+  <div class="review">
+    <p>"The staff is professional and friendly. I highly recommend DogWalking.com to all dog owners."</p>
+    <p>- PawsUp123</p>
+  </div>
+  <div class="review">
+    <p>"Our dog is always excited for walks with DogWalking.com. They go above and beyond!"</p>
+    <p>- HappyPuppyOwner</p>
+  </div>
+</div>
+ <!-- Add more reviews -->
       </div>
       <div id="contact">
         <h2>Contact Us</h2>

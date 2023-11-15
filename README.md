@@ -14,6 +14,7 @@
     <nav>
       <ul>
         <li><a href="#home">Home</a></li>
+        <li><a href="#packages">Packages</a></li>
         <li><a href="#register">Register</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#faq">Help/FAQ</a></li>
@@ -24,8 +25,25 @@
   </header>
 
   <main>
-       <header>
-    <img src="packages.png" alt="Packages of Dog Walking">
+    <section id="packages">
+      <h2>Our Packages</h2>
+      <div class="package">
+        <h3>Pack Walk</h3>
+        <p>60-minute walks with packs of about 4 dogs</p>
+        <p>From $20</p>
+      </div>
+      <div class="package">
+        <h3>Private Walk</h3>
+        <p>Stepping stone to pack walks for 30, 45, or 60 minutes</p>
+        <p>From $30</p>
+      </div>
+      <div class="package">
+        <h3>Puppy Service</h3>
+        <p>30 minutes, 1 on 1 with dogs up to 6 months old</p>
+        <p>From $19</p>
+      </div>
+    </section>
+
     <section id="home">
       <button id="registerButton" onclick="location.href='#register'">Register</button>
       <div id="dogPhotos">
@@ -55,32 +73,6 @@
         <p>Phone: 123-456-7890</p>
       </div>
     </section>
-
-    <section id="register">
-      <h2>Register Your Pet</h2>
-      <!-- Registration form goes here -->
-    </section>
-
-    <section id="about">
-      <h2>About Us</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
-    </section>
-
-    <section id="faq">
-      <h2>Help/FAQ</h2>
-      <!-- Add FAQ content here -->
-    </section>
-
-    <section id="team">
-      <h2>Meet the Team</h2>
-      <!-- Add team members and their info here -->
-    </section>
-
-    <section id="location">
-      <h2>Our Location</h2>
-      <!-- Add map with pin and address here -->
-    </section>
-         </header>
   </main>
 
   <footer>

@@ -44,7 +44,7 @@
       </div>
     </section>
 
-    <section id="home">
+ <section id="home">
       <button id="registerButton" onclick="location.href='#register'">Register</button>
       <div id="dogPhotos">
         <img src="dog1.jpg" alt="Dog 1">

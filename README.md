@@ -26,8 +26,6 @@
   <main>
        <header>
     <img src="packages.png" alt="Packages of Dog Walking">
-     </header>
-
     <section id="home">
       <button id="registerButton" onclick="location.href='#register'">Register</button>
       <div id="dogPhotos">
@@ -82,6 +80,7 @@
       <h2>Our Location</h2>
       <!-- Add map with pin and address here -->
     </section>
+         </header>
   </main>
 
   <footer>

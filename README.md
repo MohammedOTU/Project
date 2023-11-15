@@ -69,6 +69,7 @@
   <p>Give your dog the care they deserve, and let us be your trusted dog walking partner!</p>
 </div>
 
+
 <div id="aboutUs">
         <h2>About Us</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>

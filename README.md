@@ -24,6 +24,10 @@
     </nav>
   </header>
 
+<body>
+        <img src="goldenRetriever.png" alt=" Golden Retriever">
+</body>
+
   <main>
     <section id="packages">
       <h2>Our Packages</h2>

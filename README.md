@@ -71,10 +71,21 @@
 
 
 <div id="aboutUs">
-        <h2>About Us</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
-      </div>
-      <div id="reviews">
+  <h2>About Us</h2>
+  <p>Welcome to DogWalking.com, where passion meets paws! We are a team of dedicated and experienced dog lovers committed to providing top-notch dog walking services.</p>
+  <p>Our journey began with a simple goal – to create a positive and enjoyable experience for both dogs and their owners. With years of expertise in canine care, our professional team ensures that your furry friends receive the attention and exercise they need.</p>
+  <p>What sets us apart:</p>
+  <ul>
+    <li>Passionate and certified dog walkers</li>
+    <li>Customized walks tailored to your dog's preferences</li>
+    <li>Focus on safety, health, and happiness of your pets</li>
+    <li>Transparent communication and reliable services</li>
+    <li>Community-driven approach with a love for all breeds</li>
+  </ul>
+  <p>Join our DogWalking family and let us be your trusted partner in ensuring your dogs lead happy and active lives!</p>
+</div>
+
+ <div id="reviews">
         <h2>Reviews</h2>
         <div class="review">
           <p>"Great service! My dog loves their walks."</p>

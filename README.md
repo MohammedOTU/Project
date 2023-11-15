@@ -108,8 +108,9 @@
     <p>- HappyPuppyOwner</p>
   </div>
 </div>
+
  <!-- Add more reviews -->
-      </div>
+ </div>
       <div id="contact">
         <h2>Contact Us</h2>
         <p>Email: info@dogwalking.com</p>

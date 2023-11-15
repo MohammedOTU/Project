@@ -25,7 +25,7 @@
   </header>
 
 <body>
-        <img src="goldenRetriever.jpeg" alt=" Golden Retriever">
+        <img src="goldenRetriever.png" alt=" Golden Retriever">
 </body>
 
   <main>
@@ -56,10 +56,20 @@
         <!-- Add more dog images -->
       </div>
       <div id="whyChooseUs">
-        <h2>Why Choose Us?</h2>
-        <p>We provide reliable and caring dog walking services to keep your furry friend happy and healthy.</p>
-      </div>
-      <div id="aboutUs">
+  <h2>Why Choose Us?</h2>
+  <p>We understand that your pet is a beloved member of your family, and their well-being is our top priority.</p>
+  <p>Here's why you should choose our dog walking services:</p>
+  <ul>
+    <li>Experienced and caring staff who love animals</li>
+    <li>Flexible scheduling to fit your dog's needs</li>
+    <li>Safe and reliable walks with a focus on your dog's happiness</li>
+    <li>Competitive pricing with various package options</li>
+    <li>Positive reviews from satisfied customers</li>
+  </ul>
+  <p>Give your dog the care they deserve, and let us be your trusted dog walking partner!</p>
+</div>
+
+<div id="aboutUs">
         <h2>About Us</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
       </div>

@@ -25,7 +25,7 @@
   </header>
 
 <body>
-        <img src="goldenRetriever.png" alt=" Golden Retriever">
+        <img src="goldenRetriever.jpeg" alt=" Golden Retriever">
 </body>
 
   <main>

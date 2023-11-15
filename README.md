@@ -113,8 +113,8 @@
  </div>
       <div id="contact">
         <h2>Contact Us</h2>
-        <p>Email: info@dogwalking.com</p>
-        <p>Phone: 123-456-7890</p>
+        <p>Email: mkan2009@live.com</p>
+        <p>Phone: 647-540-3312</p>
       </div>
     </section>
   </main>

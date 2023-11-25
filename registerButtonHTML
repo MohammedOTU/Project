@@ -9,73 +9,50 @@
 </head>
 
 <body>
-<h2>Pet Registration Form</h2>
+    <h2>Pet Registration Form</h2>
+    
+    <form action="submit_registration.php" method="post">
+        <label for="petName">Pet Name:</label>
+        <input type="text" id="petName" name="petName" required><br>
 
-<form action="submit_registration.php" method="post">
-    <label for="petName">Pet Name:</label>
-    <input type="text" id="petName" name="petName" required><br>
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday" required><br>
 
-    <label for="birthday">Birthday of Pet:</label>
-    <input type="date" id="birthday" name="birthday" required><br>
+        <label for="breed">Breed Type:</label>
+        <select id="breed" name="breed">
+            <option value="labrador">Labrador</option>
+            <option value="goldenRetriever">Golden Retriever</option>
+            <option value="germanShepherd">German Shepherd</option>
+            <!-- Add more breed options as needed -->
+            <option value="other">Other</option>
+        </select><br>
 
-    <label for="breed">Breed Type:</label>
-    <select id="breed" name="breed" onchange="checkBreed()">
-        <option value="labrador">Labrador</option>
-        <option value="goldenRetriever">Golden Retriever</option>
-        <option value="germanShepherd">German Shepherd</option>
-        <option value="bulldog">Bulldog</option>
-        <option value="poodle">Poodle</option>
-        <option value="chihuahua">Chihuahua</option>
-        <option value="shibaInu">Shiba Inu</option>
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label><br>
 
-        <option value="other">Other</option>
-    </select><br>
+        <label for="spayedNeutered">Spayed/Neutered:</label>
+        <select id="spayedNeutered" name="spayedNeutered">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+        </select><br>
 
-    <div id="otherBreedContainer" style="display: none;">
-        <label for="otherBreed">Other Breed:</label>
-        <input type="text" id="otherBreed" name="otherBreed">
-    </div>
 
-    <label for="gender">Gender:</label>
-    <input type="radio" id="male" name="gender" value="male" required>
-    <label for="male">Male</label>
-    <input type="radio" id="female" name="gender" value="female" required>
-    <label for="female">Female</label><br>
 
-    <label for="spayedNeutered">Spayed/Neutered:</label>
-    <select id="spayedNeutered" name="spayedNeutered">
-        <option value="yes">Yes</option>
-        <option value="no">No</option>
-    </select><br>
+        <label for="address">Client Address:</label>
+        <textarea id="address" name="address" rows="4" required></textarea><br>
 
-    <label for="address">Client Address:</label>
-    <textarea id="address" name="address" rows="4" required></textarea><br>
+        <label for="packageType">Package Type:</label>
+        <select id="packageType" name="packageType">
+            <option value="basic">Basic</option>
+            <option value="standard">Standard</option>
+            <option value="premium">Premium</option>
+        </select><br>
 
-    <label for="packageType">Package Type:</label>
-    <select id="packageType" name="packageType">
-        <option value="basic">Basic</option>
-        <option value="standard">Standard</option>
-        <option value="premium">Premium</option>
-    </select><br>
-
-    <input type="submit" value="Submit">
-</form>
-
-<script>
-    function checkBreed() {
-        var breedSelect = document.getElementById("breed");
-        var otherBreedContainer = document.getElementById("otherBreedContainer");
-        var otherBreedInput = document.getElementById("otherBreed");
-
-        if (breedSelect.value === "other") {
-            otherBreedContainer.style.display = "block";
-            otherBreedInput.required = true;
-        } else {
-            otherBreedContainer.style.display = "none";
-            otherBreedInput.required = false;
-        }
-    }
-</script>
+        <input type="submit" value="Submit">
+    </form>
 </body>
 
 </html>

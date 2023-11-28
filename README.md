@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="1.css">
-    <script defer src="script.js"></script>
     <title>Dog Walking</title>
 </head>
 <body>
@@ -52,11 +51,11 @@
 
  <section id="home">
       
-      <a href="RegisterButton.html">
+<a href="RegisterButton.html">
         <button id="registerButton" onclick="location.href='#register'">Register</button>
       </a>
      
-      <style>
+<style>
         #whyChooseUs {
           display: flex;
           justify-content: space-between;
@@ -71,13 +70,13 @@
         }
       </style>
       
-      <div id="whyChooseUs">
+ <div id="whyChooseUs">
         <div class="box">
           <h2>Why Choose Us?</h2>
           <p>We understand that your pet is a beloved member of your family, and their well-being is our top priority.</p>
         </div>
       
-        <div class="box">
+<div class="box">
           <p>Here's why you should choose our dog walking services:</p>
           <ul>
             <li>Experienced and caring staff who love animals</li>
@@ -88,14 +87,14 @@
           </ul>
         </div>
       
-        <div class="box">
+<div class="box">
           <p>Give your dog the care they deserve, and let us be your trusted dog walking partner!</p>
         </div>
       </div>
       
       
 
-      <style>
+<style>
         #aboutUs {
           display: flex;
           justify-content: space-between;
@@ -103,24 +102,24 @@
         }
       
         .box {
-          width: 30%; /* Adjust the width as needed */
+          width: 30%; 
           border: 2px solid #333;
           padding: 20px;
           border-radius: 8px;
         }
       </style>
       
-      <div id="aboutUs">
+ <div id="aboutUs">
         <div class="box">
           <h2>About Us</h2>
           <p>Welcome to DogWalking.com, where passion meets paws! We are a team of dedicated and experienced dog lovers committed to providing top-notch dog walking services.</p>
         </div>
       
-        <div class="box">
+ <div class="box">
           <p>Our journey began with a simple goal – to create a positive and enjoyable experience for both dogs and their owners. With years of expertise in canine care, our professional team ensures that your furry friends receive the attention and exercise they need.</p>
         </div>
       
-        <div class="box">
+ <div class="box">
           <p>What sets us apart:</p>
           <ul>
             <li>Passionate and certified dog walkers</li>
@@ -134,7 +133,7 @@
       </div>
       
 
-      <style>
+<style>
         #reviews {
           display: flex;
           justify-content: space-between;
@@ -142,43 +141,43 @@
         }
       
         .review {
-          width: 30%; /* Adjust the width as needed */
+          width: 30%; 
           border: 2px solid #333;
           padding: 20px;
           border-radius: 8px;
         }
       </style>
       
-      <div id="reviews">
+ <div id="reviews">
         <div class="review">
           <h2>Reviews</h2>
           <p>"Great service! My dog loves their walks."</p>
           <p>- Happy Customer</p>
         </div>
       
-        <div class="review">
+  <div class="review">
           <p>"DogWalking.com is fantastic! The team is reliable and genuinely cares about the dogs."</p>
           <p>- DogOwner123</p>
         </div>
       
-        <div class="review">
+   <div class="review">
           <p>"I appreciate the flexibility in scheduling. It's a relief to have a trustworthy dog walking service."</p>
           <p>- PetLover456</p>
         </div>
         
-        <div class="review">
+<div class="review">
           <p>"The staff is professional and friendly. I highly recommend DogWalking.com to all dog owners."</p>
           <p>- PawsUp123</p>
         </div>
         
-        <div class="review">
+   <div class="review">
           <p>"Our dog is always excited for walks with DogWalking.com. They go above and beyond!"</p>
           <p>- HappyPuppyOwner</p>
         </div>
       </div>
       
 
-      <div id="contact">
+ <div id="contact">
         <h2>Contact Us</h2>
         <p>Email: mkan2009@live.com</p>
         <p>Phone: 647-540-3312</p>

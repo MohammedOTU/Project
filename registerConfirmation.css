@@ -1,21 +1,28 @@
-html{
-    color: white;
-    background-color: deepskyblue;
-    height: 500px;
+html {
+    color: #333; 
+    background-color: #87CEEB;
+    height: 100vh; 
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0;
 }
 
-.homePage{
-    font-family: "Comic Sans MS";
-    background-color: red;
-    color: white;
+.homePage {
+    font-family: "Comic Sans MS", cursive; 
+    background-color: #FF6347; 
+    color: #fff; 
     cursor: pointer;
     border-radius: 10px;
-    padding: 4px 8px;
+    padding: 10px 20px; 
+    text-decoration: none; 
+    display: inline-block;
+    transition: background-color 0.3s ease; 
 
+}
 
+.homePage:hover {
+    background-color: #FF4500; 
 }
 
